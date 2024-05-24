@@ -1,43 +1,54 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-JOURNAL
-  # title: TITLE OF PAPER
-  # description: SHORT DESCRIPTION HERE
+  id: ubcgif-2017-heagy-etal-computers-geosciences
+  title: A framework for simulation and inversion in electromagnetics
+  description: Proposing a framework for organizing and implementing electromagnetic simulations and gradient-based inversions in a modular, extensible fashion.
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-  # doi: DOI
-  # arxiv: ARXIV
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      corresponding: true
+      orcid: 0000-0002-1551-5926
+      affiliation: 
+        id: ubc
+        name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
+    - name: Rowan Cockett
+      email: rcockett@eos.ubc.ca
+      orcid: 0000-0002-7859-8394
+      affiliation: ubc
+    - name: Seogi Kang
+      # email: EMAIL ID
+      orcid: 0000-0002-9963-936X
+      affiliation: ubc
+    - name: Gudni K. Rosenkjaer
+      # email:  EMAIL ID  
+      # orcid: ORCID
+      affiliation: ubc
+    - name: Doulas W. Oldenburg
+      email: doug@eos.ubc.ca
+      orcid: 0000-0002-4327-2124
+      affiliation: ubc
+  doi: 10.1016/j.cageo.2017.06.018
+  arxiv: 1610.00804
   # github: GITHUB-URL
-  # date: YYYY/MM/DD # date of publication
+  date: 2017/07/19 # date of publication
   # license: CC-BY-4.0  # uncomment this and the line below if open access
   # open_access: true
   venue:
-    # title: JOURNAL NAME
-    # url: JOURNAL URL
+    title: Computers and Geosciences
+    url: https://www.sciencedirect.com/science/article/pii/S0098300416303946
   history:
-    # received: YYYY/MM/DD
-    # accepted: YYYY/MM/DD
-    # published: YYYY/MM/DD
+    received: 2016/09/11
+    accepted: 2017/06/30
+    published: 2017/07/19
   keywords:
-    # - KEYWORD 1
-    # - KEYWORD 2
-    # - KEYWORD 3
-    # - KEYWORD 4
+    - Geophysics 
+    - Numerical modelling
+    - Finite volume 
+    - Sensitivities 
+    - Object oriented
   abbreviations:
-    # CSEM: controlled source electromagnetics
-    # EM: electromagnetics
+    EM: electromagnetics
   thumbnail: thumbnail.png
   numbering:
     headings: true
@@ -45,5 +56,5 @@ site:
   template: article-theme
   actions:
     - title: pdf
-      # url: NAME-OF-PDF.pdf
+      url: 2017-heagy-etal-computers-geosciences-framwework-.pdf
       static: true
