@@ -1,6 +1,6 @@
 # A framework for simulation and inversion in electromagnetics 
 
-_ Lindsey J. Heagy, Rowan Cockett, Seogi Kang, Gudni K. Rosenkjaer and Douglas W. Oldenburg_
+_Lindsey J. Heagy, Rowan Cockett, Seogi Kang, Gudni K. Rosenkjaer and Douglas W. Oldenburg_
 
 (https://doi.org/10.1016/j.cageo.2017.06.018)
 
