@@ -9,7 +9,7 @@ project:
       email: lheagy@eoas.ubc.ca
       corresponding: true
       orcid: 0000-0002-1551-5926
-      affiliation: 
+      affiliation:
         id: ubc
         name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
     - name: Rowan Cockett
@@ -21,7 +21,7 @@ project:
       orcid: 0000-0002-9963-936X
       affiliation: ubc
     - name: Gudni K. Rosenkjaer
-      # email:  EMAIL ID  
+      # email:  EMAIL ID
       # orcid: ORCID
       affiliation: ubc
     - name: Doulas W. Oldenburg
@@ -31,21 +31,22 @@ project:
   doi: 10.1016/j.cageo.2017.06.018
   arxiv: 1610.00804
   # github: GITHUB-URL
-  date: 2017/07/19 # date of publication
-  # license: CC-BY-4.0  # uncomment this and the line below if open access
-  # open_access: true
+  date: 2017-07-19 # date of publication
+  license: CC-BY-4.0  # uncomment this and the line below if open access
+  open_access: true
+  banner: banner.png
   venue:
     title: Computers and Geosciences
     url: https://www.sciencedirect.com/science/article/pii/S0098300416303946
   history:
-    received: 2016/09/11
-    accepted: 2017/06/30
-    published: 2017/07/19
+    received: 2016-09-11
+    accepted: 2017-06-30
+    published: 2017-07-19
   keywords:
-    - Geophysics 
+    - Geophysics
     - Numerical modelling
-    - Finite volume 
-    - Sensitivities 
+    - Finite volume
+    - Sensitivities
     - Object oriented
   abbreviations:
     EM: electromagnetics
